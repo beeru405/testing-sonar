@@ -109,12 +109,12 @@ public class Calculator extends HttpServlet {
         System.out.println("Subtraction: " + resultSub);
         System.out.println("Multiplication: " + resultMul);
     }
-  /*  
+ // /*  
     // Intentionally added a long method to trigger SonarQube analysis failure
     private void thisMethodIsTooLongAndShouldFailSonarQubeAnalysis() {
         for (int i = 0; i < 1000; i++) {
             System.out.println("This is a long method.");
         }
     }
- */
+// */
 }
